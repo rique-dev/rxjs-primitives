@@ -1,0 +1,65 @@
+{
+  "name": "rxjs-primitives",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "nx": "nx",
+    "start": "nx serve",
+    "build": "nx build",
+    "test": "nx test",
+    "test:cov": "nx test --codeCoverage=true",
+    "lint": "nx workspace-lint && nx lint",
+    "e2e": "nx e2e",
+    "affected:apps": "nx affected:apps",
+    "affected:libs": "nx affected:libs",
+    "affected:build": "nx affected:build",
+    "affected:e2e": "nx affected:e2e",
+    "affected:test": "nx affected:test",
+    "affected:lint": "nx affected:lint",
+    "affected:dep-graph": "nx affected:dep-graph",
+    "affected": "nx affected",
+    "format": "nx format:write",
+    "format:write": "nx format:write",
+    "format:check": "nx format:check",
+    "update": "nx migrate latest",
+    "workspace-schematic": "nx workspace-schematic",
+    "dep-graph": "nx dep-graph",
+    "help": "nx help",
+    "cz": "git-cz",
+    "docs": "typedoc",
+    "coverage": "codecov"
+  },
+  "private": true,
+  "dependencies": {
+    "rxjs": "^6.5.5"
+  },
+  "devDependencies": {
+    "@nrwl/eslint-plugin-nx": "^9.3.0",
+    "@nrwl/jest": "^9.3.0",
+    "@nrwl/node": "^9.3.0",
+    "@nrwl/workspace": "^9.3.0",
+    "@types/jest": "^25.2.2",
+    "@types/node": "~14.0.1",
+    "@typescript-eslint/eslint-plugin": "2.33.0",
+    "@typescript-eslint/parser": "2.33.0",
+    "codecov": "^3.7.0",
+    "commitizen": "^4.1.2",
+    "cz-conventional-changelog": "^3.2.0",
+    "dotenv": "8.2.0",
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.11.0",
+    "jest": "25.5.4",
+    "prettier": "2.0.5",
+    "ts-jest": "25.5.1",
+    "ts-node": "~8.10.1",
+    "tslint": "~6.1.2",
+    "typedoc": "^0.17.7",
+    "typedoc-plugin-external-module-name": "^3.1.0",
+    "typescript": "~3.9.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

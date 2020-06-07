@@ -1,0 +1,34 @@
+{
+  "npmScope": "henryqrm",
+  "implicitDependencies": {
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    }
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/workspace/tasks-runners/default",
+      "options": {
+        "cacheableOperations": ["build", "lint", "test", "e2e"]
+      }
+    }
+  },
+  "projects": {
+    "rxjs-string": {
+      "tags": []
+    },
+    "rxjs-number": {
+      "tags": []
+    },
+    "rxjs-boolean": {
+      "tags": []
+    },
+    "rxjs-utility": {
+      "tags": []
+    },
+    "rxjs-array": {
+      "tags": []
+    }
+  }
+}
