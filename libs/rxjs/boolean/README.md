@@ -6,6 +6,7 @@ operators for [RxJS](https://rxjs-dev.firebaseapp.com/) around filtering values 
 - [Github](https://github.com/tanepiper/rxjs-primitives)
 - Full [API Documentation](https://tanepiper.github.io/rxjs-primitives/) is available with examples.
 
+
 ## How to install
 
 > `npm install @henryqrm/rxjs-boolean`
